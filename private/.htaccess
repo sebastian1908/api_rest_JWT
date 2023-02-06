@@ -1,0 +1,11 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule ^login$ login.php [NC,L]
+RewriteRule ^registro$ registro.php [NC,L]
+RewriteRule ^createProducto$ createProducto.php [NC,L]
+RewriteRule ^getProducto$ getProducto.php [NC,L]
+RewriteRule ^updateProducto$ updateProducto.php [NC,L] 
+RewriteRule ^deleteProducto$ deleteProducto.php [NC,L]
+RewriteRule ^eliminar$ eliminar.php [NC,L]
+
+
+

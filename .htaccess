@@ -1,0 +1,10 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule ^getData$ getData.php [NC,L]
+RewriteRule ^createData$ createData.php [NC,L]
+RewriteRule ^updateData$ updateData.php [NC,L]
+RewriteRule ^deleteData$ deleteData.php [NC,L]
+
+
+
+
+
